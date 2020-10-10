@@ -1,7 +1,6 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/browser-apis/
- */
 
-// You can delete this file if you're not using it
+// this is a library to run the gatsby-mark-lazy-load plugin
+import "lazysizes";
+
+// this is a lightweight, extensible syntax highlighter to makdown
+require("prismjs/themes/prism-twilight.css");
