@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Blog Pravtz`,
-    description: `Este blog serve para fins didaticos.`,
+    description: `Blog de Tecnologia e marketing.`,
     author: `@pravtz`,
+    siteUrl: `https://www.pravtz.com.br`,
+    
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -66,17 +68,18 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Blog Eder`,
+        short_name: `Blog Ederson Pravtz`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `111`,
+        theme_color: `111`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/iconBlog.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }

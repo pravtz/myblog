@@ -8,6 +8,7 @@ const Header = () => {
   return (
     <S.HeaderWrapper>
       <S.NavBarWrapper>
+        <Link to="/">
         <S.NavBarBrand>
           <Avatar/>
           <div>
@@ -15,6 +16,8 @@ const Header = () => {
             <h4>Analista de Sistemas e um completo curioso!</h4>
           </div>
         </S.NavBarBrand>
+        </Link>
+
         <S.NavBarToggler><S.IconToggleMenu/></S.NavBarToggler>
         <S.NavBarGroup>
           <S.NavBarMenu>
